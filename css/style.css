@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .main-container {
@@ -56,6 +57,33 @@ a {
 
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+nav{
+    margin: 0px 30px;
+    display: flex;
+  flex-direction: row;
+  align-items:start;
+  justify-content: space-between;
+}
+
+.nav-link{
+    display: flex;
+    gap: 2rem;
+
+}
+
+.booki{
+    margin: 30px 0px;
+}
+
+.hblue:hover{
+color:#0065fc;
+border-top: 2px #0065fc solid;
+
+}
+.hblue{
+    padding-top: 10px;
 }
 
 /****** Hebergements And Populaires ***********/

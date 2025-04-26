@@ -8,7 +8,9 @@
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
     --dropshadow:drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    --card:#ffffff
+    --white:#ffffff ;
+    --icone: #d9d9d9 ;
+    --black:#000000
 }
 
 .fa-solid {
@@ -39,7 +41,7 @@ a {
 }
 
 .card {
-    background-color:var(--card);
+    background-color:var(--white);
     border-radius: 20px;
     padding: 5px;
     filter:var(--dropshadow) ;
@@ -59,6 +61,12 @@ a {
 
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+.info-group{
+    display: flex;
+    flex-direction: column;
+    gap:35px
 }
 
 nav{
@@ -88,6 +96,43 @@ color: var(--main-color);
 border-top: 2px var(--main-color) solid;
 padding-top: 8px;
 } 
+
+.searchbar{
+    display: flex;
+    align-items: center;
+}
+
+.icone{
+    background-color:var(--icone) ;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: var(--icone) solid 1px;
+}
+
+.searchtext{
+    height: 50px;
+    border: var(--icone) solid 1px;
+    border-right: 0px;
+
+}
+
+.searchtext::placeholder{
+    display: flex;
+    text-align: center;
+    color: var(--black);
+    font-weight: 700;
+}
+
+.searchbtn{
+    background-color: var(--main-color);
+    font-weight: 700;
+    color: var(--white);
+    padding: 16px;
+   border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border:var(--main-color) solid 1px;
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {

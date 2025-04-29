@@ -134,6 +134,13 @@ padding-top: 8px;
     border:var(--main-color) solid 1px;
 }
 
+.filtres{
+    display: flex;
+    text-align: center;
+    gap: 15px;
+    font-weight: 400;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

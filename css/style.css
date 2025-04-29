@@ -129,7 +129,7 @@ padding-top: 8px;
     font-weight: 700;
     color: var(--white);
     padding: 16px;
-   border-top-right-radius: 15px;
+    border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border:var(--main-color) solid 1px;
 }
@@ -138,8 +138,39 @@ padding-top: 8px;
     display: flex;
     text-align: center;
     gap: 15px;
-    font-weight: 400;
+    height: 50px;
+    color: var(--black);
+    font-weight: 700;
 }
+
+.filter-box{
+    border-radius:25px ;
+    border: var(--icone) solid 2px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.filter-text{
+    size: 17px;
+}
+
+.info-bar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icone-info{
+    border-radius:50%;
+    border: 1px solid;
+    color: var(--icone);
+    width: 24px;
+    height: 24px;
+}
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {

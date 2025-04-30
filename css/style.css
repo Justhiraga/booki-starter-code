@@ -158,19 +158,18 @@ padding-top: 8px;
     background-color: var(--filter-bg-color);
 }
 
-
-.info-bar{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.icone-info{
+.icone-border{
     border-radius:50%;
     border: 1px solid;
     color: var(--icone);
     width: 24px;
     height: 24px;
+}
+
+.icone-info{
+display: flex;
+align-items: center;
+
 }
 
 

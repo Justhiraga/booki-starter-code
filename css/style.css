@@ -107,7 +107,8 @@ padding-top: 8px;
     padding: 15px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    border: var(--icone) solid 1px;
+    border: var(--icone) solid 2px;
+    color: var(--black);
 }
 
 .searchtext{
@@ -157,9 +158,6 @@ padding-top: 8px;
     background-color: var(--filter-bg-color);
 }
 
-.filter-text{
-    size: 17px;
-}
 
 .info-bar{
     display: flex;

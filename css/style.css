@@ -153,6 +153,10 @@ padding-top: 8px;
     padding-right: 19px;
 }
 
+.filter-box:hover{
+    background-color: var(--filter-bg-color);
+}
+
 .filter-text{
     size: 17px;
 }

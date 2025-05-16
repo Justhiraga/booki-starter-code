@@ -305,6 +305,11 @@ border-top: 2px var(--main-color) solid;
     margin: 30px;
 }
 
+.Activités section{
+    margin-bottom: 35px;
+}
+
+
 .Activités-card{
     display: flex;
     flex-wrap: wrap;

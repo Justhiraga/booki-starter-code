@@ -187,6 +187,7 @@ border-top: 2px var(--main-color) solid;
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
+    margin-bottom: 5px;
 }
 
 /****** Hebergements ***********/
@@ -215,6 +216,7 @@ border-top: 2px var(--main-color) solid;
     border: 5px solid var(--white);
     width: 233px;
     height: 197px;
+    filter: var(--dropshadow);
 }
 
 .h-card img{
@@ -297,6 +299,49 @@ border-top: 2px var(--main-color) solid;
     margin-bottom: 5px;
 }
 
+/***Activités à Marseille***/
+
+.Activités-Marseille .act-title{
+    margin: 30px;
+}
+
+.Activités-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+.act-card{
+    background-color: var(--white);
+    border-radius: 20px;
+     width: 297px;
+     height: 439px;
+     filter: var(--dropshadow);
+}
+
+.act-card img {
+    width: 297px;
+    height: 380px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.Activités-Marseille img{
+    object-fit: cover;
+}
+
+.Activités-card .act-card-content{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+.act-card-content .act-card-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 
 

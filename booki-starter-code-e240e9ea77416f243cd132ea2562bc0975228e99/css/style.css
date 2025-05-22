@@ -28,6 +28,7 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 a {
@@ -95,8 +96,9 @@ a {
 }
 
 .hblue:hover{
-color: var(--main-color);
-border-top: 2px var(--main-color) solid;
+    padding-top: 8px;
+    color: var(--main-color);
+    border-top: 2px var(--main-color) solid;
 } 
 
 .searchbar{
@@ -135,6 +137,10 @@ border-top: 2px var(--main-color) solid;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border:var(--main-color) solid 1px;
+    .fa-solid{
+        color: var(--white);
+        display: none;
+    }
 }
 
 .filtres{
@@ -412,6 +418,10 @@ border-top: 2px var(--main-color) solid;
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
+    .main-container{
+        padding: 0 20px;
+    }
+
     .header nav{
         display: flex;
         flex-direction: column;
@@ -422,16 +432,51 @@ border-top: 2px var(--main-color) solid;
         width: 100%;
     }
 
-    .filtres{
-        display: flex;
-        flex-wrap:nowrap;
-        flex-direction: column;
+    .searchbtn{
+        border-radius: 15px;
+        .fa-solid{
+            display: block;
+        }
+        span{
+            display: none;
+        }
     }
 
-    
+    .main-title{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .filtres{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+        p {
+            width: 100%;
+        }
+    }
+
+    .filter-box{
+        box-sizing: border-box;
+        overflow: hidden;
+        width: calc((100% - 10px) / 2);
+        p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-wrap-mode: nowrap;
+        }
+    }
+
     .footer{
         display: flex;
         flex-direction: column;
     }
 
+    .f-info{
+        width: 100%;
+    }
 }

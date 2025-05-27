@@ -104,6 +104,7 @@ a {
 .searchbar{
     display: flex;
     align-items: center;
+    
 }
 
 .icone{
@@ -177,7 +178,7 @@ a {
     border: 1px solid;
     color: var(--icone);
     width: 24px;
-    height: 24px;
+    padding: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -419,7 +420,7 @@ a {
 @media (max-width: 767.98px) {
 
     .main-container{
-        padding: 0 20px;
+        padding: 0px;
     }
 
     .header nav{
@@ -427,8 +428,30 @@ a {
         flex-direction: column;
         align-items: center;
     }
+
+    .hblue{
+    padding-bottom: 10px;
+    }
+
+    .hblue:hover{
+    padding-bottom: 8px;
+    color: var(--main-color);
+    border-bottom: 2px var(--main-color) solid;
+    border-top: 2px var(--white) solid;
+    } 
     
     .info-group{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main-title h1{
+        display: flex;
+        flex-wrap: wrap;
+        size: 22px;
+    }
+
+    .searchbar{
         width: 100%;
     }
 
@@ -469,6 +492,50 @@ a {
             text-overflow: ellipsis;
             text-wrap-mode: nowrap;
         }
+    }
+
+    .hebergements-and-populaires{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .populaires-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .populaires-cards article{
+        width: 300%;
+    }
+
+    .populaires-cards img{
+        width: 33%;
+        height: 146px;
+    }
+
+    .hebergements-and-populaires section{
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+        padding-right: 20px;
+        gap: 15px;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Hébergements-card{
+        display: flex;
+        justify-content: center;
+    }
+
+    .hebergements .h-card{
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .h-card img{
+        width: 100%;
     }
 
     .footer{

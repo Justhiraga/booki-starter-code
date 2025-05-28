@@ -423,10 +423,15 @@ a {
         padding: 0px;
     }
 
+
     .header nav{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .nav-link{
+
     }
 
     .hblue{
@@ -452,7 +457,7 @@ a {
     }
 
     .searchbar{
-        width: 100%;
+        justify-content: center;
     }
 
     .searchbtn{
@@ -502,6 +507,7 @@ a {
     .populaires-cards{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     .populaires-cards article{
@@ -537,6 +543,24 @@ a {
     .h-card img{
         width: 100%;
     }
+
+    .Activités-card{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        gap: 15px;
+    }
+
+    .act-card{
+        width: 315px;
+        height: 200px;
+    }
+
+    .act-card img{
+        width: 315px;
+        height: 141px;
+    }
+    
 
     .footer{
         display: flex;

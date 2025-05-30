@@ -392,6 +392,18 @@ a {
         width: 100%;
     }
 
+    .Hébergements-card{
+        gap: 15px;
+    }
+
+    .hebergements article{
+        width: 268px;
+    }
+
+    .h-card img{
+        width: 268px;
+    }
+
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -414,6 +426,19 @@ a {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .act-card{
+        width: 193px;
+        height: 270px;
+        gap: 30px;
+    }
+
+    .act-card img{
+        width: 193px;
+        height: 200px;
+    }
+
+
 }
 
 /* Small devices (phones, less than 768px) */
@@ -432,6 +457,7 @@ a {
 
     .nav-link{
         width: 100%;
+        gap: 0px;
         a{
             flex: 1;
             text-align: center;

@@ -138,10 +138,11 @@ a {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border:var(--main-color) solid 1px;
-    .fa-solid{
-        color: var(--white);
-        display: none;
-    }
+}
+
+.searchbtn .fa-solid{
+     color: var(--white);
+    display: none;
 }
 
 .filtres{
@@ -461,10 +462,11 @@ a {
     .nav-link{
         width: 100%;
         gap: 0px;
-        a{
-            flex: 1;
-            text-align: center;
-        }
+    }
+
+    .nav-link a{
+        flex: 1;
+        text-align: center;
     }
 
     .hblue{
@@ -486,7 +488,7 @@ a {
     .main-title h1{
         display: flex;
         flex-wrap: wrap;
-        size: 22px;
+        font-size: 22px;
     }
 
    .searchtext {
@@ -496,13 +498,16 @@ a {
 
     .searchbtn{
         border-radius: 15px;
-        .fa-solid{
-            display: block;
-        }
-        span{
-            display: none;
-        }
     }
+
+    .searchbtn .fa-solid{
+        display: block;
+    }
+
+    .searchbtn span{
+        display: none;
+    }
+
 
     .main-title{
         display: flex;
@@ -517,20 +522,23 @@ a {
         flex-wrap: wrap;
         gap: 10px;
         width: 100%;
-        p {
-            width: 100%;
-        }
+    }
+
+    .filtres p{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
     }
 
     .filter-box{
         box-sizing: border-box;
         overflow: hidden;
         width: calc((100% - 10px) / 2);
-        p {
-            overflow: hidden;
+    }
+
+    .filter-box p{
+        overflow: hidden;
             text-overflow: ellipsis;
-            text-wrap-mode: nowrap;
-        }
     }
 
     .hebergements-and-populaires{
